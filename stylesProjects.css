@@ -72,3 +72,32 @@ body {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 1080px) and (max-height: 1920px) {
+    body {
+        background-image: url(https://i.imgur.com/GAAM4DJ.jpeg);
+        background-position: center;
+    }
+    .projectName {
+        width: 960px;
+        height: 270px;
+        max-height: none;
+    }
+    .projectName p{
+        width: 944px;
+        height: 223px;
+        font-size: 60px;
+        letter-spacing: 2px;
+        line-height: 72px;
+        color: #362f2d;
+        font-weight: 900;
+        font-family: "Lato";
+    }
+    .arrowLeft {
+        height: 80%;
+    }
+    .arrowLeft img {
+        width: 100px;
+        height: 133px;
+    }
+}
