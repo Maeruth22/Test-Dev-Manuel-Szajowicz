@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test-Dev Manuel Szajowicz</title>
-    <link href="stylesIndex.css" rel="stylesheet">
     <link rel="stylesheet" href="owl.carousel.min.css">
     <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link href="stylesIndex.css" rel="stylesheet">
+    <link href="stylesContact.css" rel="stylesheet">
+    <link href="stylesProjects.css" rel="stylesheet">
 </head>
 <body>
+    <section class="home" id="home">
+    <!--test dev2-->
     <header class="header">
         <div  class="menu">
             <div>
@@ -24,7 +28,7 @@
             <img src="images/LOGO.png">
         </div>
 
-        <div class="contact">
+        <div class="contactHeader">
             <div>
                 <img src="images/CONTACT.png">
             </div>
@@ -34,8 +38,8 @@
         </div>
 
     </header>
-<div class="owl-carousel">
-<section class="divgral item">
+<div class="owl-carousel owl-theme">
+<section class="headline3 item">
     <div class="title item">
             <h1>
                 <span>
@@ -45,7 +49,7 @@
     </div>
 </section>
 
-    <section class="headline1">
+    <section class="headline1 item">
         <img src="images/HEADLINE LINE.png">
         <div>
             <h2>dedicated to the future</h2>
@@ -53,14 +57,70 @@
         </div>
         <img src="images/HEADLINE LINE.png">
     </section>
-    <section class="headline2">
+    <section class="headline2 item">
         <p>Sed nec semper leo.</p>
         <h2>DUIS A MASSA SODALES, MOLLIS ELIT NON, GRAVIDA LIBERO.</h2>
     </section>
 
 </div>
+</section>
+<section class="projects" id="projects">
+    <div class="arrowLeft">
+            
+            <a href="#home"><img src="images/ARROW LEFT.png"></a>
+            <a href="#contact"><img src="images/ARROW RIGHT.png"></a>
+        
+    </div>
+    <article class="projectArticle">
+        <aside class="projectName">
+            <p><b> Project name</b></p>
+            <p>Vivamus imperdiet hendrerit leo quis fringilla </p>
+        </aside>
+    </article>
+</section>
 
-  
+<section class="contact" id="contact">
+    <aside class="contactAside">
+        <div class="contactGral">
+            <article class="contactInfo">
+                <h2>Contact us via email, phone or come by into our office!</h2>
+                    <div class="contactRef">
+                        <span>info@airhitect.com</span>
+                        <span>+12 34 567 890</span>
+                        <span>+09 87 654 321</span>
+                        <span>1012 Budapest</span>
+                        <span>Marvany utca 16</span>
+                    </div>
+            </article>
+
+            <article class="contactHiring">
+                <h4>We are hiring!</h4>
+                <p>We are looking for new talents to our team!If you think you are the right person for AIRhitect send us an email with your CV and portfolio. Don't forget to write a little about yourself!</p>
+                <span>job@airhitect.com</span>
+            </article>
+        </div>
+        <article class="contactForm">
+            <form>
+                <input type="text" placeholder="Name" id="name">
+                <input type="email" placeholder="E-mail" id="email">
+                <input type="text" placeholder="Subject" id="subject">
+                <textarea></textarea>
+                <button type="submit">SEND MESSAGE</button>
+            </form>
+        </article>
+    </aside>
+    <section>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5391.4396381300185!2d19.0263751!3d47.4953713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc25d4ad9a07%3A0x5b41f2bc2f5e42d9!2zQnVkYXBlc3QsIE3DoXJ2w6FueSB1LiAxNiwgMTAxMiBIdW5ncsOtYQ!5e0!3m2!1ses!2sar!4v1622411545799!5m2!1ses!2sar" 
+                width= 100% 
+                height= 100%
+                style="border:0;" 
+                allowfullscreen="" 
+            
+            ></iframe>
+        </div>
+    </section>
+</section>
   
 <script src="jquery.min.js"></script>
 <script src="owl.carousel.min.js"></script>
