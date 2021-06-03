@@ -76,14 +76,14 @@ body {
 .contactForm button {
     float: right;
     font-size: 16px;
-letter-spacing: 2px;
-line-height: 30px;
-color: #362f2d;
-font-weight: 400;
-font-family: "Lato";
-text-align: center;
-background-color: #ff8322;
-border-style: none;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #362f2d;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    background-color: #ff8322;
+    border-style: none;
 }
 .divgral {
     width: 100vh;
@@ -105,12 +105,12 @@ border-style: none;
 }
 
 .contactHiring p {
-font-size: 16px;
-letter-spacing: 2px;
-line-height: 48px;
-color: #ff8322;
-font-weight: 300;
-font-family: "Lato";
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #ff8322;
+    font-weight: 300;
+    font-family: "Lato";
 }
 .contactHiring span {
     font-size: 16px;
@@ -121,35 +121,35 @@ font-family: "Lato";
     font-family: "Lato";
 }
 .contactHiring h4 {
-font-size: 16px;
-letter-spacing: 2px;
-line-height: 48px;
-color: #ff8322;
-font-weight: 900;
-font-family: "Lato";
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #ff8322;
+    font-weight: 900;
+    font-family: "Lato";
 }
 .contactInfo {
     margin: 90px;
 }
 .contactInfo h2 {
     width: 305px;
-height: 165px;
-font-size: 30px;
-letter-spacing: 3px;
-line-height: 32px;
-color: #ff8322;
-font-weight: 900;
-font-family: "Lato";
+    height: 165px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 32px;
+    color: #ff8322;
+    font-weight: 900;
+    font-family: "Lato";
 }
 .contactInfo span {
     width: 260px;
-height: 231px;
-font-size: 16px;
-letter-spacing: 2px;
-line-height: 48px;
-color: #ff8322;
-font-weight: 300;
-font-family: "Lato";
+    height: 231px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #ff8322;
+    font-weight: 300;
+    font-family: "Lato";
 }
 .contactRef {
     max-width: 161px;
@@ -185,31 +185,31 @@ font-family: "Lato";
     }
     .contactHiring h4 {
         width: 800px;
-font-size: 60px;
-letter-spacing: 2px;
-line-height: 80px;
-color: #ff8322;
-font-weight: 900;
-font-family: "Lato";
+        font-size: 60px;
+        letter-spacing: 2px;
+        line-height: 80px;
+        color: #ff8322;
+        font-weight: 900;
+        font-family: "Lato";
     }
     .contactHiring p {
         width: 800px;
-height: 500px;
-font-size: 60px;
-letter-spacing: 2px;
-line-height: 80px;
-color: #ff8322;
-font-family: "Lato";
+        height: 500px;
+        font-size: 60px;
+        letter-spacing: 2px;
+        line-height: 80px;
+        color: #ff8322;
+        font-family: "Lato";
     }
     .contactHiring span {
         width: 800px;
-height: 909px;
-font-size: 60px;
-letter-spacing: 2px;
-line-height: 80px;
-color: #ff8322;
-font-family: "Lato";
-    }
+        height: 909px;
+        font-size: 60px;
+        letter-spacing: 2px;
+        line-height: 80px;
+        color: #ff8322;
+        font-family: "Lato";
+            }
     .contactForm {
         height: 880px;
         width: 800px;
@@ -230,9 +230,8 @@ font-family: "Lato";
     }
     .contactRef {
         width: 720px;
-    height: 506px;
-    max-width: 450px;
-
+        height: 506px;
+        max-width: 450px;
     }
     .contactRef span {
         line-height: 80px;
